@@ -152,10 +152,22 @@ background: linear-gradient(90deg, rgba(45,180,176,1) 6%, rgba(49,174,190,1) 29%
 
 
 @media only screen and (max-width:450px){
-    .navbar_list ul{
-        
-    
+    /* .navbar_list{
+        padding: 0;
+        margin: 0;
     }
+
+    .navbar_list ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start ;
+        background-color: #16b5d5;
+        max-width: 200px;
+        height: 100vh;
+        position: absolute;
+    
+    } */
 }
 
 @media only screen and (min-width:450px){
