@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: manrope;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0.8rem;
+    text-align: center;
+    
+    /* background-color: #72b3b9; */
+    background: rgb(45,180,176);
+background: linear-gradient(90deg, rgba(45,180,176,1) 6%, rgba(49,174,190,1) 29%, rgba(22,181,213,1) 49%, rgba(73,151,200,1) 92%);
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.navbar_menu{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    color: #fff;
+}
+
+
+
+.navbar_title{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.navbar_title_logo a{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    max-width: 100px;
+    
+}
+
+.navbar_title_search input,
+.navbar_title_search button{
+    border: 1px solid white;
+    border-radius: 3px;
+    
+}
+
+.navbar_title_search input{
+    padding: 0.2rem;
+    width: 500px;
+}
+.navbar_title_search button{
+    padding: 0.2rem;
+    color: #fff;
+    background-color: #16b5d5;
+}
+
+.navbar_menu_icon3{
+    color: #fff;
+}
+.navbar_list ul{
+    display: flex;
+
+}
+.navbar_list ul li a{
+    font-weight: 550;
+    margin: 0 0 0 0.8rem;
+
+}
+
+.navbar_menu_icon2,
+.navbar_menu_icon3{
+   font-size:18px;
+   margin: 0 0 0 1rem;
+} 
+
+
+@media only screen and (max-width:1024px){
+    .navbar_title_search input{
+        padding: 0.2rem;
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width:731px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.4rem;
+        text-align: center;
+        
+    }
+    .navbar_list ul{
+        padding: 1rem 0 0;
+    
+    }
+    .navbar_menu{
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        align-items: center;
+        color: #fff;
+        width: 100%;
+    }    
+
+
+    .navbar_title_logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      
+    }
+
+    .navbar_title{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    .navbar_title_search{
+        margin: 0.5rem 0 0 ;
+    }
+    .navbar_title_search input{
+        padding: 0.2rem;
+        width: 200px;
+    }
+    .navbar_title_search button{
+        padding: 0.2rem;
+    }
+    
+}
+
+
+@media only screen and (max-width:450px){
+    .navbar_list ul{
+        
+    
+    }
+}
+
+@media only screen and (min-width:450px){
+    .navbar_menu_icon{
+        display: none;
+    }
+
+    .navbar_menu_icon3{
+        display: none;
+    }
+   
+}
