@@ -25,6 +25,7 @@
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
+  font-size: 19px;
 }
 .navbar ul {
   display: flex;
@@ -52,7 +53,7 @@
 .navbar_title_logo a {
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0.1rem;
   max-width: 100px;
 }
@@ -67,6 +68,12 @@
   padding: 0.2rem;
   width: 500px;
 }
+
+.navbar_title_search input:focus {
+  outline: none;
+  
+}
+
 .navbar_title_search button {
   padding: 0.2rem;
   color: #fff;
@@ -136,6 +143,8 @@
     padding: 0.2rem;
     width: 200px;
   }
+ 
+
   .navbar_title_search button {
     padding: 0.2rem;
   }
