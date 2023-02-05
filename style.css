@@ -25,7 +25,8 @@
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 19px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .navbar ul {
   display: flex;
@@ -62,10 +63,11 @@
 .navbar_title_search button {
   border: 1px solid white;
   border-radius: 3px;
+  font-size: 16px;
 }
 
 .navbar_title_search input {
-  padding: 0.2rem;
+  padding: 0.3rem;
   width: 500px;
 }
 
@@ -75,7 +77,7 @@
 }
 
 .navbar_title_search button {
-  padding: 0.2rem;
+  padding: 0.3rem;
   color: #fff;
   background-color: #16b5d5;
 }
@@ -111,6 +113,9 @@
     justify-content: space-between;
     padding: 0.4rem;
     text-align: center;
+  }
+  .navbar a {
+    font-size: 18px;
   }
   .navbar_list ul {
     padding: 1rem 0 0;
